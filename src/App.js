@@ -86,7 +86,7 @@ function App() {
           return item.o
         }))
         labels[1](response.results.map((item) => {
-          return moment(item.t).format('hh:mm A')
+          return moment(item.t).format('MMM Do YY');
         }))
       })
   }
